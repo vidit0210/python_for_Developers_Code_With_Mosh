@@ -1,5 +1,9 @@
+# age = 22
+# if age >= 22:
+#     print("Adult")
+# else:
+#     print("Not an Adult")
+
 age = 22
-if age >= 22:
-    print("Adult")
-else:
-    print("Not an Adult")
+message = "Eligible" if age > 18 else "Not Eligible"
+print(message)
