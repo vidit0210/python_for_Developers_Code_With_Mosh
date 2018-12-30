@@ -9,3 +9,4 @@ print(c)
 # discount = Coupons['40OFF'] * amount
 # total = amount - discount
 # print(total)
+print("Coupons")
