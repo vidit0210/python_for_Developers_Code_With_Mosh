@@ -1,4 +1,4 @@
-l = ['a', 'b', 'c', 'd']
+l = ['a', 'b', 'c', 'd', 'd', 'd']
 l.append(1)
 print(l)
 # inseer elemnets in between
@@ -12,3 +12,9 @@ l.remove('a')
 print(l)
 del l[0:2]
 print(l)
+# Search Element with Index
+x = l.index('f')
+print(x)
+# Getting Count
+y = l.count('d')
+print(y)
